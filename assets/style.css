@@ -562,11 +562,14 @@ footer {
 }
 
 .about .row .image {
-  flex: 0.75;
+  flex: 0.6;
+  background-color: rgba(164, 183, 221, 0.5);
+  padding: 15px;
 }
 
 .about .row .content {
   flex: 2.5;
+  margin-left: 10px;
 }
 
 .about .row .content h3 {
@@ -607,6 +610,7 @@ footer {
 .about .box-container .box:hover {
   background: #6a87c2;
   color: #fee87f;
+  font-weight: 700;
   box-shadow:0 1px 20px 0 #fee87f;
 }
 
@@ -627,7 +631,7 @@ footer {
 }
 
 .about .main {
-  background-color: rgba(202, 216, 241, 0.8);
+  background-color: rgba(164, 183, 221, 0.5);
   padding: 20px;
   border-radius: 5px;
 }
