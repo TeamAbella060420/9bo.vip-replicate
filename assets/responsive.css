@@ -50,6 +50,9 @@
             flex: 1;
         }
     }
+    .about .row .content {
+        margin-left: 0px;
+      }
 }
 
 @media (max-width: 450px) {
@@ -73,6 +76,9 @@
         color: #f0d965;
         font-size: 14px;
     }
+    .about .row .content {
+        margin-left: 0px;
+      }
 }
 
 @media (max-width: 355px) {
@@ -80,4 +86,7 @@
         color: #f0d965;
         font-size: 10px;
     }
+    .about .row .content {
+        margin-left: 0px;
+      }
 }
