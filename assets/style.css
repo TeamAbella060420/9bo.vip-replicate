@@ -565,6 +565,7 @@ footer {
   flex: 0.6;
   background-color: rgba(164, 183, 221, 0.5);
   padding: 15px;
+  border-radius: 5px;
 }
 
 .about .row .content {
@@ -604,7 +605,7 @@ footer {
   cursor: pointer;
   font-size: 14px;
   color: black;
-  transition: .2s ease;
+  transition: 0.3s ease-in-out;
 }
 
 .about .box-container .box:hover {
